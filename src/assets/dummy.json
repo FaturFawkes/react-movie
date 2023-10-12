@@ -1,26 +1,38 @@
 [
     {
         "id": 1,
-        "image": "https://images2.alphacoders.com/132/1320904.jpg"
+        "image": "https://images2.alphacoders.com/132/1320904.jpg",
+        "title": "Barbie",
+        "desc": "Lorem ipsum dolor sit amet"
     },
         {
         "id": 2,
-        "image": "https://w0.peakpx.com/wallpaper/191/587/HD-wallpaper-movie-parasite.jpg"
+        "image": "https://w0.peakpx.com/wallpaper/191/587/HD-wallpaper-movie-parasite.jpg",
+        "title": "Barbie",
+        "desc": "Lorem ipsum dolor sit amet"
     },
     {
         "id": 3,
-        "image": "https://c4.wallpaperflare.com/wallpaper/885/212/64/spiderman-homecoming-2017-8k-wallpaper-preview.jpg"
+        "image": "https://c4.wallpaperflare.com/wallpaper/885/212/64/spiderman-homecoming-2017-8k-wallpaper-preview.jpg",
+        "title": "Barbie",
+        "desc": "Lorem ipsum dolor sit amet"
     },
     {   
         "id": 4,
-        "image": "https://occ-0-2164-55.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdTrn-4lfPiAFZ68eMP65ClsWc1oiszPNlZwBCwUkwKLbBptAgdnRBrbB4ZsdE-UWOPktXc-PocoaJPQWsqz9CZxvcW92N_obfq1_1o30LBl70BNUEaW2rnXU8QDB1GYoXNLnQ.jpg?r=fbf"
+        "image": "https://occ-0-2164-55.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdTrn-4lfPiAFZ68eMP65ClsWc1oiszPNlZwBCwUkwKLbBptAgdnRBrbB4ZsdE-UWOPktXc-PocoaJPQWsqz9CZxvcW92N_obfq1_1o30LBl70BNUEaW2rnXU8QDB1GYoXNLnQ.jpg?r=fbf",
+        "title": "Barbie",
+        "desc": "Lorem ipsum dolor sit amet"
     },
     {   
-        "id": 4,
-        "image": "https://occ-0-2164-55.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdTrn-4lfPiAFZ68eMP65ClsWc1oiszPNlZwBCwUkwKLbBptAgdnRBrbB4ZsdE-UWOPktXc-PocoaJPQWsqz9CZxvcW92N_obfq1_1o30LBl70BNUEaW2rnXU8QDB1GYoXNLnQ.jpg?r=fbf"
+        "id": 5,
+        "image": "https://occ-0-2164-55.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdTrn-4lfPiAFZ68eMP65ClsWc1oiszPNlZwBCwUkwKLbBptAgdnRBrbB4ZsdE-UWOPktXc-PocoaJPQWsqz9CZxvcW92N_obfq1_1o30LBl70BNUEaW2rnXU8QDB1GYoXNLnQ.jpg?r=fbf",
+        "title": "Barbie",
+        "desc": "Lorem ipsum dolor sit amet"
     },
     {   
-        "id": 4,
-        "image": "https://occ-0-2164-55.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdTrn-4lfPiAFZ68eMP65ClsWc1oiszPNlZwBCwUkwKLbBptAgdnRBrbB4ZsdE-UWOPktXc-PocoaJPQWsqz9CZxvcW92N_obfq1_1o30LBl70BNUEaW2rnXU8QDB1GYoXNLnQ.jpg?r=fbf"
+        "id": 6,
+        "image": "https://occ-0-2164-55.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdTrn-4lfPiAFZ68eMP65ClsWc1oiszPNlZwBCwUkwKLbBptAgdnRBrbB4ZsdE-UWOPktXc-PocoaJPQWsqz9CZxvcW92N_obfq1_1o30LBl70BNUEaW2rnXU8QDB1GYoXNLnQ.jpg?r=fbf",
+        "title": "Barbie",
+        "desc": "Lorem ipsum dolor sit amet"
     }
 ]
