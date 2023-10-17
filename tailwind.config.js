@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        Night: "#0b090a",
+        Night: "#141414",
         "Eerie-black": "#141414",
         "Blood-red": "#660708",
         "Cornell-red": "#a4161a",

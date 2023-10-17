@@ -54,7 +54,7 @@ class App extends Component<DataState> {
                 {
                   data.map((item: any, index) => {
                     return (
-                      <Card  key={index} image={item.backdrop_path} desc={item.overview} title={item.title}/>
+                      <Card  key={index} image={item.backdrop_path} desc={item.overview} title={item.title} category={item.genre_ids}/>
                     )
                   })
                 }
