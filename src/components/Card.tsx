@@ -37,7 +37,7 @@ export class Card extends Component<Movie, Genre> {
               src={`https://image.tmdb.org/t/p/w500/${image}`} 
               alt="Image Size 720x400"
             />
-            <div className='text-lg text-white w-[391px] p-[10px] bg-Night shadow-2xl mt-[-24px] font-medium title-font absolute mb-4 hidden transition group-hover:block rounded'>
+            <div className='text-lg text-white max-sm:w-[512px] sm:w-[512px] md:w-[349px] lg:w-[477px] xl:w-[392px] 2xl:w-[477px] p-[10px] bg-Night shadow-2xl mt-[-24px] font-medium title-font absolute mb-4 hidden transition group-hover:block rounded'>
               {/* <h2 className="">{`${title}`}</h2> */}
               <p className="leading-relaxed text-[10px] hidden transition group-hover:block ">{category}</p>
               <button type="button" className="text-white border-2 border-slate-600 focus:ring-1 focus:outline-none focus:ring-white font-medium rotate-90 rounded-full text-sm p-2.5 text-center inline-flex items-center mr-2 dark:bg-Night dark:hover:border-white">

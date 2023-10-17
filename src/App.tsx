@@ -39,7 +39,7 @@ class App extends Component<DataState> {
 
     return (
       <>
-        <div className='w-full h-[2000px] bg-Eerie-black'>
+        <div className='w-full h-full bg-black'>
           <Navbar/>
           <Hero/>
             <section className="text-gray-600 body-font">
