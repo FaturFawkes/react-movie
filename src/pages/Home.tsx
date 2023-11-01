@@ -7,13 +7,10 @@ import Hero from '../components/Hero'
 
 interface HomeProps {
   navigate: any
+  location: any
 }
 
 export class Home extends Component<HomeProps> {
-  
-  nextPage() {
-    this.props.navigate('/upcoming')
-  } 
   
   state = {
     data: [],
@@ -39,12 +36,12 @@ export class Home extends Component<HomeProps> {
 
   render() {   
     const { data } = this.state
-
+    const { location } = this.props
     return (
       <>
         <div className='w-full h-full bg-black'>
           <Navbar/>
-          <Hero/>
+          <Hero name={location?.state?.username}/>
             <section className="text-gray-600 body-font">
             <div className="container px-5 py-24 mx-auto max-w-7x1">
               <div className="flex flex-wrap w-full mb-4 p-4">
@@ -57,7 +54,7 @@ export class Home extends Component<HomeProps> {
                 {
                   data.map((item: any, index) => {
                     return (
-                      <Card  key={index} image={item.backdrop_path} desc={item.overview} title={item.title} category={item.genre_ids}/>
+                      <Card key={index} image={item.backdrop_path} desc={item.overview} title={item.title} category={item.genre_ids}/>
                     )
                   })
                 }

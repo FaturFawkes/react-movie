@@ -2,14 +2,16 @@ import React, {Component} from "react"
 import {BrowserRouter, Routes, Route} from "react-router-dom" 
 import Home from "./pages/Home"
 import Upcoming from "./pages/Upcoming"
+import Register from "./pages/Register"
 
 export class App extends Component {
   render() {
     return (
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home/>} />
+          <Route path="/home/:username" element={<Home/>} />
           <Route path="/upcoming" element={<Upcoming/>} />
+          <Route path="/register" element={<Register/>}/>
         </Routes>
       </BrowserRouter>
     )
