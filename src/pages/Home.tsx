@@ -4,18 +4,36 @@ import axios from "axios"
 import Card from "../components/Card"
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
+import Cookies from 'js-cookie'
+import Input from '../components/Input'
+import Button from '../components/Button'
 
 interface HomeProps {
   navigate: any
   location: any
 }
 
-export class Home extends Component<HomeProps> {
+interface HomeState {
+  myCookie: string
+  data: any[]
+}
+
+export class Home extends Component<HomeProps, HomeState> {
   
   state = {
-    data: [],
+    myCookie: Cookies.get("Fatur") || "",
+    data: []
   }
 
+  handleSetCookie = () => {
+    const {myCookie} = this.state
+    Cookies.set('myCookie', myCookie, {path: '/'})
+  }
+
+  handleRemoveCookie() {
+    Cookies.remove("myCookie")
+  }
+  
   baseUrl = import.meta.env.VITE_BASE_URL 
   apiKey = import.meta.env.VITE_API_KEY
 
@@ -35,12 +53,17 @@ export class Home extends Component<HomeProps> {
   }
 
   render() {   
-    const { data } = this.state
+    const { data, myCookie } = this.state
     const { location } = this.props
     return (
       <>
         <div className='w-full h-full bg-black'>
           <Navbar/>
+          <div className='w-[400px]'>
+            <Input label='Cookie' name='input-cookies' type='text' value={myCookie} onChange={(e) => this.setState({myCookie: e.target.value})} />
+            <Button label='Setr Cookie' name='button-cookies' onClick={() => this.handleSetCookie()} />
+            <Button label='Remove Cookie' name='button-cookies' onClick={() => this.handleRemoveCookie()} />
+          </div>
           <Hero name={location?.state?.username}/>
             <section className="text-gray-600 body-font">
             <div className="container px-5 py-24 mx-auto max-w-7x1">
